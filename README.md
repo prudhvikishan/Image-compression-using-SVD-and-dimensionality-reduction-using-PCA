@@ -9,10 +9,10 @@ Goal of this academic project is to implement the Image compression using SVD an
 #DecomposeMatrix class in DecomposeMatrix.java file decomposes the given matrix into U,S,VT and saves the header.txt and SVD.txt
 #Utils.java file has the few methods like saveCompressedFileToBin, readCompressedBin, convertFloatToHalfPrecision.
 #Note -- PGM file should not have comment line.
-# jblas.jar is a matrix library for Java
 
-Steps_of_Execution
+jblas.jar is a matrix library for Java
 
+## Steps_of_Execution
 Firstly step is to compile all the java files. This can be done by executing the command given below
 ----- javac -cp .:jblas.jar *.java
 
@@ -44,5 +44,5 @@ Output saved as CAS_2.pgm
 6th task: Error Calculations. This can be done by executing the command given below.
 java -cp .:jblas.jar SVD 5 CAS.pgm CAS_2.pgm CAS_b.pgm.SVD
 
-Outputs are THE RATE OF COMPRESSION AND MEAN SQUARE ERROR.
+## Outputs are THE RATE OF COMPRESSION AND MEAN SQUARE ERROR.
 
